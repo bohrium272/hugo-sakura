@@ -1,0 +1,15 @@
+{{ define "main" }}
+{{ partial "partials/head.html" . }}
+<body>
+<ul>
+  {{ range where .Site.RegularPages "Section" "in" site.Params.mainSections }}
+  <li>
+    <a href="{{ .Permalink }}">
+    {{ .Title }}
+    <em><small><time>{{ .Date.Format "January 2, 2006" }}</time></small></em>
+    </a>
+  </li>
+  {{- end }}
+</ul>
+</body>
+{{ end }}
