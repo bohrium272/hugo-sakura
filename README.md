@@ -53,6 +53,8 @@ Set `params.sakuraTheme` to one of:
 4. ink
 5. vader
 
+Check out the themes [here](https://oxal.org/projects/sakura/demo/)
+
 When not set, the light theme is used.
 
 # Thanks To

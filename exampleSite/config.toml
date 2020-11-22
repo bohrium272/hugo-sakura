@@ -3,8 +3,6 @@ title = "Sakura Demo"
 theme = "sakura"
 languageCode = "en-US"
 enableInlineShortcodes = true
-pygmentsCodeFences = true
-pygmentsUseClasses = true
 
 [params]
   sakuraTheme = ""

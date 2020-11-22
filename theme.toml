@@ -11,7 +11,7 @@ features = ["blog", "simple"]
 min_version = "0.41.0"
 
 [author]
-  name = "Arpit"
+  name = "bohrium272"
 
 [original]
   author = "Lukas Joswiak"
